@@ -1,0 +1,33 @@
+.container {
+  background-color: #010409;
+}
+
+.header {
+  background-color: #010409;
+  border-bottom: 1px solid #3d444d;
+  height: 64px;
+}
+
+.content {
+  background-color: #010409;
+}
+
+.left-menu {
+  background-color: #0d1116;
+  border-right: 1px solid #3d444d;
+  width: 25%;
+}
+
+.feed {
+  width: 100%;
+}
+
+.feed-card {
+  border-radius: 6px;
+  border: 1px solid #3d444d;
+  background-color: #0d1116;
+  padding: 16px;
+  min-height: 200px;
+  width: 100%;
+  gap: 24px;
+}

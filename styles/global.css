@@ -1,0 +1,148 @@
+/* Resetando as configurações iniciais */
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+html,
+body {
+  height: 100%;
+  background-color: #010409;
+}
+
+a {
+  padding: 6px 8px;
+  color: #f0f6fc;
+  text-decoration: none;
+  border-radius: 6px;
+}
+
+a:hover {
+  background-color: rgba(100, 100, 100, 0.12);
+}
+
+li {
+  list-style: none;
+}
+
+/* Classes para diferentes tipos de textos */
+
+.title {
+  font-weight: 700;
+  font-size: 16px;
+  color: #f0f6fc;
+}
+
+.subtitle {
+  font-weight: 400;
+  font-size: 14px;
+  color: #f0f6fc;
+}
+
+.description {
+  font-weight: 400;
+  font-size: 16px;
+  color: #f0f6fc;
+}
+
+.muted-text {
+  color: #9198a1;
+}
+
+.white-text {
+  color: #f0f6fc;
+}
+
+/* Classes referentes a largura */
+
+.w-full {
+  width: 100%;
+}
+
+.w-max {
+  width: 100%;
+  max-width: 1440px;
+}
+
+/* Classes referentes a altura */
+
+.h-full {
+  height: 100%;
+}
+
+/* Classes referentes ao flex box */
+
+.flex {
+  display: flex;
+  flex: 1f;
+}
+
+.flex-row {
+  display: flex;
+  flex-direction: row;
+}
+
+.flex-col {
+  display: flex;
+  flex-direction: column;
+}
+
+.items-center {
+  align-items: center;
+}
+
+.justify-center {
+  justify-content: center;
+}
+
+.justify-between {
+  justify-content: space-between;
+}
+
+.align-self-center {
+  align-self: center;
+}
+
+.gap-6 {
+  gap: 6px;
+}
+
+.gap-16 {
+  gap: 16px;
+}
+
+.gap-32 {
+  gap: 32px;
+}
+
+/* Classes referentes as fontes  */
+
+.poppins-regular {
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.poppins-bold {
+  font-family: "Poppins", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+}
+
+/* Outras classes uteis */
+
+.border-bg {
+  border: 1px solid #3d444d;
+}
+
+.border-radius-sm {
+  border-radius: 6px;
+}
+
+.border-radius-md {
+  border-radius: 8px;
+}

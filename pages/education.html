@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="../styles/global.css" />
+    <link rel="stylesheet" href="../styles/style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@0,400;0,700;&display=swap"
+      rel="stylesheet"
+    />
+    <title>Formação</title>
+  </head>
+  <body>
+    <main class="w-full container h-full flex-col">
+      <header class="w-full header flex items-center justify-center">
+        <nav
+          class="w-max flex items-center justify-between"
+          style="padding: 0px 32px; height: 64px"
+        >
+          <h1 class="poppins-bold"><a href="">Vinicius G. Machado</a></h1>
+          <ul class="flex gap-16">
+            <li><a href="../index.html">Trabalhos</a></li>
+            <li><a href="about-me.html">Sobre mim</a></li>
+            <li><a href="education.html">Formação</a></li>
+            <li><a href="contact.html">Contato</a></li>
+          </ul>
+        </nav>
+      </header>
+      <div class="content w-max h-full align-self-center flex-row">
+        <div
+          class="feed flex-col items-center h-full gap-32"
+          style="overflow-y: scroll"
+        >
+          <h1 style="color: white; width: 80%; padding-top: 32px">Formações</h1>
+          <div
+            class="feed-list flex-col h-full gap-16"
+            style="width: 80%; padding-bottom: 32px"
+          ></div>
+        </div>
+      </div>
+    </main>
+    <script type="module" src="../scripts/education-script.js"></script>
+    <script type="module" src="../scripts/education-data.js"></script>
+  </body>
+</html>
