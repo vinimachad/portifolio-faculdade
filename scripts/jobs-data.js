@@ -1,3 +1,5 @@
+// Array de objetos para montar a tela das minhas formações
+
 const jobs = [
   {
     name: "CI&T",

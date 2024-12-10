@@ -1,5 +1,7 @@
 import educations from "./education-data.js";
 
+// Função responsavel por montar cada componente das formações
+
 function addFeedCards() {
   educations.forEach((item) => {
     createFeedCard(item);

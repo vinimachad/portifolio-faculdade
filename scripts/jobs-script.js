@@ -1,5 +1,7 @@
 import jobs from "./jobs-data.js";
 
+// Função responsavel por montar cada componente das formações
+
 function addFeedCards() {
   jobs.forEach((item) => {
     createFeedCard(item);
